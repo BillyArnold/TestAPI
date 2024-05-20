@@ -30,3 +30,4 @@
 /Users/billyarnold/Documents/projects/TestApi/obj/Debug/net8.0/TestApi.csproj.AssemblyReference.cache
 /Users/billyarnold/Documents/projects/TestApi/obj/Debug/net8.0/TestApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/billyarnold/Documents/projects/TestApi/obj/Debug/net8.0/TestApi.csproj.Up2Date
+/Users/billyarnold/Documents/projects/TestApi/obj/Debug/net8.0/TestApi.sourcelink.json

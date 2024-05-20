@@ -24,6 +24,7 @@ app.MapGet("/", () => "Hello World!");
 app.MapGet("/products", () => ProductDB.GetProducts());
 app.MapGet("/products/{id}", (int id) => ProductDB.GetProduct(id));
 app.MapGet("/product", () => new { id = 1 });
+app.MapGet("/products/search/{search}", (string search) => ProductDB.FindProducts(search));
 
 app.MapPost("/products", (Product product) => ProductDB.CreateProduct(product));
 

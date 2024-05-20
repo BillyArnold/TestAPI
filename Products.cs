@@ -20,6 +20,10 @@ public class ProductDB {
     return data;
   }
 
+  public static List<Product> FindProducts(string searchTerm) {
+    return data.Where(product => product.Name.Contains(searchTerm) || product.Description.Contains(searchTerm)).ToList();
+  }
+
   public static Product ? GetProduct(int id) {
     return data.SingleOrDefault(product => product.Id == id);
   }
